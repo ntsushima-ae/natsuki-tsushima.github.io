@@ -1,0 +1,20 @@
+---
+title: "Projects"
+description: "Publicly available information about current and completed research projects."
+---
+
+This page presents publicly available research projects and collaborations across aerospace structures, aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, additive manufacturing, and experimental mechanics.
+
+## Current Research
+
+Project descriptions will be updated.
+
+## Collaborative Research
+
+Publicly announced research collaborations will be updated.
+
+## Research Funding
+
+Only awarded and publicly disclosed research funding will be listed.
+
+Confidential project information, unpublished proposals, and information restricted by collaborative research agreements will not be included.

@@ -1,0 +1,46 @@
+---
+title: "Natsuki Tsushima"
+subtitle: "Aerospace Structures and Aeroelasticity"
+page-layout: full
+---
+
+## Research Vision
+
+I investigate the mechanics, design, and experimental validation of advanced aerospace structures by integrating nonlinear aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, additive manufacturing, and wind-tunnel testing.
+
+> Advancing aerospace structures through nonlinear aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, and wind-tunnel experimentation.
+
+## Research Areas
+
+- Nonlinear aeroelasticity and highly flexible wings
+- Flutter mechanism diagnosis and aeroelastic tailoring
+- Structural dynamics and vibration control
+- Composite and morphing structures
+- Aerospace mechanical metamaterials
+- Additively manufactured wind-tunnel models
+
+## Selected Publications
+
+Selected publications will be added after verification of the complete bibliographic information.
+
+[View research topics](research.qmd){.btn .btn-primary}
+
+[View publications](publications.qmd){.btn .btn-outline-primary}
+
+## Current Affiliations
+
+- **Kyushu University** — Associate Professor, Department of Aeronautics and Astronautics
+- **The University of Tokyo** — Project Associate Professor, Department of Aeronautics and Astronautics
+- **Japan Aerospace Exploration Agency (JAXA)** — Visiting Researcher, Aeronautical Technology Directorate
+
+[Full affiliations and contact information](contact.qmd)
+
+## Contact
+
+For research collaboration, invited talks, student supervision, and technical consultation, please include a brief summary of your inquiry.
+
+[Contact information](contact.qmd){.btn .btn-primary}
+
+---
+
+This is a personal research website maintained by Natsuki Tsushima. It is not an official website of Kyushu University, The University of Tokyo, or the Japan Aerospace Exploration Agency.

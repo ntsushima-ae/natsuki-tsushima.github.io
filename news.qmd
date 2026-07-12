@@ -1,0 +1,20 @@
+---
+title: "News"
+description: "Research news, publications, presentations, awards, and project updates."
+---
+
+Research news will be updated.
+
+## July 2026 — Best Presentation Award at FDC/ANSS 2026
+
+Our presentation, **“Spatial Mapping of Flutter Excitation and Dissipation Based on Aerodynamic Component Decomposition in Potential flow,”** was selected for the Best Presentation Award in Aerospace Numerical Simulation Technology at the 58th Fluid Dynamics Conference / 44th Aerospace Numerical Simulation Symposium.
+
+The study presents a component-resolved aerodynamic-work mapping framework for identifying the spatial regions and physical mechanisms that drive or dissipate flutter.
+
+The award ceremony and invited award presentation are planned for the next FDC/ANSS conference in 2027.
+
+## 2026
+
+### Website launched
+
+This personal research website was established to provide an integrated overview of research activities, publications, projects, and collaboration opportunities.

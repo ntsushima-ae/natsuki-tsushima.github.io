@@ -1,0 +1,69 @@
+---
+title: "Contact"
+description: "Affiliations and contact information for research collaboration and academic inquiries."
+---
+
+## Affiliations
+
+### Kyushu University
+
+**Natsuki Tsushima, Ph.D., PMP**  
+Associate Professor  
+Department of Aeronautics and Astronautics
+Faculty of Engineering  
+Kyushu University
+
+### The University of Tokyo
+
+Project Associate Professor  
+Department of Aeronautics and Astronautics  
+Graduate School of Engineering  
+The University of Tokyo
+
+### Japan Aerospace Exploration Agency
+
+Visiting Researcher  
+Fundamental Technology Research Unit  
+Aviation Technology Directorate  
+Japan Aerospace Exploration Agency (JAXA)
+
+## Email Contacts
+
+### Kyushu University
+
+[ntsushima@aero.kyushu-u.ac.jp](mailto:ntsushima@aero.kyushu-u.ac.jp)
+
+### The University of Tokyo
+
+[ntsushima@g.ecc.u-tokyo.ac.jp](mailto:ntsushima@g.ecc.u-tokyo.ac.jp)
+
+For general research inquiries, either university email address may be used.
+
+Please note that no JAXA-specific contact address is provided on this website.
+
+## Research Inquiries
+
+For research collaboration, invited talks, student supervision, and technical consultation, please include a brief summary of your inquiry.
+
+Relevant research areas include:
+
+- Aerospace structures
+- Aeroelasticity
+- Structural dynamics and vibration
+- Composite structures
+- Mechanical metamaterials
+- Additive manufacturing
+- Wind-tunnel testing
+- Structural sensing
+
+## Student Supervision
+
+Research inquiries concerning aerospace structures, aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, and wind-tunnel testing are welcome.
+
+Formal student admission, laboratory affiliation, and research supervision are governed by the official academic programs and organizational procedures of the relevant university and department.
+
+## Website Notice
+
+This is a personal research website maintained by Natsuki Tsushima. It is not an official website of Kyushu University, The University of Tokyo, or the Japan Aerospace Exploration Agency.
+
+The affiliations and positions listed on this page do not imply that inquiries submitted through this website represent official inquiries to any of the affiliated institutions.

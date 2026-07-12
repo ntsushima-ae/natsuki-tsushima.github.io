@@ -1,0 +1,175 @@
+---
+title: "Recognition"
+description: "Awards, invited talks, research highlights, and professional recognition."
+---
+
+## Awards and Recognition
+
+My research has been recognized across aerospace engineering, mechanical engineering, structural mechanics, and advanced manufacturing. The awards and external recognition listed below reflect contributions to nonlinear aeroelasticity, multifunctional flexible structures, additive manufacturing, wind-tunnel testing, and mechanical metamaterials.
+
+## Awards
+
+### Best Presentation Award in Aerospace Numerical Simulation Technology
+
+**Selected in 2026; award ceremony and invited award presentation planned for 2027**  
+58th Fluid Dynamics Conference / 44th Aerospace Numerical Simulation Symposium  
+FDC/ANSS 2026
+
+Selected as the best presentation in the Aerospace Numerical Simulation Technology category for the presentation:
+
+**“Spatial Mapping of Flutter Excitation and Dissipation Based on Aerodynamic Component Decomposition in Potential Flow”**
+
+The research develops a spatially resolved aerodynamic-work diagnostic framework by decomposing potential-flow aerodynamic forces into their underlying mechanical contributions. The resulting energy maps identify the regions and mechanisms that drive or dissipate flutter, providing a physics-based basis for flutter diagnosis and aeroelastic tailoring.
+
+The award ceremony and award presentation are planned to be held during the next FDC/ANSS conference, scheduled for June 30–July 2, 2027, in Tokyo.
+
+### The Japan Society for Aeronautical and Space Sciences Award for Young Researchers
+
+**2022 fiscal year; presented in 2023**  
+Japan Society for Aeronautical and Space Sciences
+
+Awarded for research on multifidelity analysis in geometrically nonlinear static aeroelasticity. The work developed computational methods for predicting large-deformation aeroelastic responses of flexible and morphing aerospace structures.
+
+https://www.jsass.or.jp/award/4156/
+
+### The Japan Society of Mechanical Engineers Young Engineers Award for Research
+
+**2022 fiscal year; presented in 2023**  
+Japan Society of Mechanical Engineers
+
+Awarded for research on multiphysics and multiscale analysis and design methods for innovative structures and materials, including nonlinear aeroelasticity, multifunctional structures, additive manufacturing, and mechanical metamaterials.
+
+https://www.jsme.or.jp/20230301-2/
+
+### Outstanding Presentation Award
+
+**2020**  
+28th Transportation and Logistics Division Conference  
+Japan Society of Mechanical Engineers
+
+Awarded for the presentation titled “Aeroelastic Characteristics of 3D-Printed Wings,” concerning the structural and aeroelastic behavior of additively manufactured flexible wing models.
+
+### Young Researcher Award
+
+**2019**  
+61st JSASS/JSME Structures Conference  
+Japan Society for Aeronautical and Space Sciences
+
+Awarded for research on multifidelity analysis in geometrically nonlinear static aeroelasticity.
+
+https://branch.jsass.or.jp/strcom/ysa/sc61_ysa/
+
+### Outstanding Graduate PhD Research Assistant Award
+
+**2017**  
+The University of Alabama
+
+Recognized for doctoral research on highly flexible multifunctional wings, nonlinear aeroelasticity, piezoelectric vibration control, energy harvesting, and strain-based structural sensing.
+
+---
+
+## Selected Invited Talks
+
+### Aerospace Structures with Advanced Manufacturing: Design and Fabrication
+
+**Innovative Carbon Fiber Polymer Composite Structures: Material, Design and Application Workshop**  
+Japan, March 2023
+
+An invited presentation on the integration of computational structural design, additive manufacturing, and experimental validation for advanced aerospace structures.
+
+### Multi-Material Additive Manufacturing of Mechanical Metamaterials with Tunable Stiffness
+
+**Composites Computational Modeling and Experiments Workshop**  
+Singapore, November 2022
+
+An invited presentation on the design and multiscale analysis of lattice-based mechanical metamaterials and their realization using advanced additive-manufacturing technologies.
+
+### A New Nonlinear Aeroelastic Framework to Study the Nonlinear Aeroelasticity of Corrugated and Composite Morphing Wings
+
+**Indo–Japan Workshop**  
+India, November 2018
+
+An invited presentation on geometrically nonlinear aeroelastic analysis for flexible composite and corrugated morphing-wing structures.
+
+### Adaptive Highly Flexible Multifunctional Wings for Active and Passive Control and Energy Harvesting with Piezoelectric Materials
+
+**Morphing Technology Research Group, Japan Society of Mechanical Engineers**  
+2017
+
+An invited presentation on multifunctional wing structures integrating active piezoelectric control, passive vibration damping, and energy harvesting.
+
+---
+
+## Research Highlights and Media
+
+### JAXA's Magazine: Mechanical Metamaterials for Aircraft Performance
+
+**JAXA's No. 96, July 2024**
+
+Research on aerospace mechanical metamaterials, lattice structures, structural functionality, and advanced manufacturing was introduced in a feature article published by the Japan Aerospace Exploration Agency.
+
+https://fanfun.jaxa.jp/jaxas/no096/
+
+### Hybrid Manufacturing of Flexible Wind-Tunnel Models
+
+**Proterial, January 2024**
+
+A case study introducing the development of flexible metallic wind-tunnel models through the combination of metal additive manufacturing and precision machining.
+
+https://www.proterial.com/products/3d_printer/cs02.html
+
+### Mechanical Metamaterials for Morphing Aircraft
+
+**MONOist, December 2021**
+
+Research on mechanical metamaterials, multiscale structural analysis, and their potential applications to adaptive and morphing aircraft was introduced in a technical feature article.
+
+https://monoist.itmedia.co.jp/mn/articles/2112/16/news005.html
+
+### Aerospace America: Year in Review
+
+**Aerospace America, December 2021**
+
+Research on additively manufactured aeroelastic wind-tunnel models was highlighted in the American Institute of Aeronautics and Astronautics' annual review of advances in ground testing and experimental aerospace technology.
+
+https://aerospaceamerica.aiaa.org/year-in-review/facility-improvements-return-to-service-and-novel-testing-techniques-showcase-critical-ground-testing/
+
+---
+
+## International Research Experience
+
+My research has been developed through collaborations and research activities spanning universities, public research institutes, and industry in Japan, the United States, and Europe.
+
+### NASA-Related Flexible-Structure Sensing Research
+
+As a Graduate Research Assistant at the University of Alabama, I contributed to NASA-supported research on strain-based deformation and vibration monitoring for flexible launch-vehicle structures. The work developed sensor-instrumented reference structures and reconstruction methods for estimating multi-axial bending vibration from distributed strain measurements.
+
+### German Aerospace Center (DLR)
+
+As a Guest Scientist at the DLR Institute of Aeroelasticity from September 2023 to August 2024, I conducted research on transonic wind-tunnel testing, structural shape identification, and strain-based deformation monitoring for additively manufactured aeroelastic wing models.
+
+### JAXA
+
+My research at the Japan Aerospace Exploration Agency has addressed nonlinear aeroelasticity, metal-additive-manufactured wind-tunnel models, transonic flutter testing, advanced sensing, and experimental validation. I continue this collaboration as a Visiting Researcher in the Aviation Technology Directorate.
+
+---
+
+## Professional Qualification
+
+### Project Management Professional
+
+**Project Management Professional, PMP**
+
+A professional qualification awarded by the Project Management Institute. The associated project-management framework supports the planning and execution of multidisciplinary and international research activities involving computational development, manufacturing, and experimental validation.
+
+---
+
+## Official Profiles
+
+For complete and continuously updated records, please see:
+
+- [researchmap](https://researchmap.jp/tsushima-natsuki)
+- [Google Scholar](https://scholar.google.com/citations?user=ATxZpX0AAAAJ&hl=en)
+- https://orcid.org/0000-0003-0767-7295
+- https://hyoka.ofc.kyushu-u.ac.jp/html/100026081_en.html
+- [Kyushu University Pure Portal](https://kyushu-u.elsevierpure.com/en/persons/natsuki-tsushima/)

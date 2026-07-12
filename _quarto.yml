@@ -1,0 +1,54 @@
+project:
+  type: website
+  resources:
+    - images/**
+    - files/**
+
+
+website:
+  title: "Natsuki Tsushima"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: recognition.qmd
+        text: Recognition
+      - href: news.qmd
+        text: News
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: mortarboard
+        href: "https://scholar.google.com/citations?hl=en&user=ATxZpX0AAAAJ"
+        aria-label: Google Scholar
+      - icon: person-circle
+        href: https://orcid.org/0000-0003-0767-7295
+        aria-label: ORCID
+      - icon: github
+        href: https://github.com/ntsushima-ae
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:ntsushima@aero.kyushu-u.ac.jp
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Natsuki Tsushima"
+    center: "Personal research website"
+    right:
+      - icon: github
+        href: https://github.com/ntsushima-ae
+  search: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    link-external-newwindow: true
