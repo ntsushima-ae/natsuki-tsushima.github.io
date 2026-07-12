@@ -55,3 +55,4 @@ format:
     toc: true
     toc-depth: 2
     link-external-newwindow: true
+    include-in-header: analytics.html
