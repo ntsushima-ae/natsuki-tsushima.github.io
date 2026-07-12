@@ -7,6 +7,9 @@ project:
 
 website:
   title: "Natsuki Tsushima"
+  site-url: "https://ntsushima-ae.github.io/natsuki-tsushima.github.io/"
+  description: "Academic website of Natsuki Tsushima, featuring research on aeroelasticity, structural dynamics, additive manufacturing, morphing aircraft, and mechanical metamaterials."
+  
   navbar:
     left:
       - href: index.qmd
