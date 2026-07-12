@@ -11,3 +11,4 @@ private/
 drafts/
 applications/
 contracts/
+**/*.quarto_ipynb
