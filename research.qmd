@@ -62,7 +62,7 @@ My research develops an integrated prediction framework that combines thermomech
 
 ![Lattice structures](images/jamt2026-fig03.png){width="100%"}
 
-![Contributions for the geometrical difference in the fabricated lattice structures](images/jamt2026-fig11.png){width="100%"}
+![Contributions for the geometrical difference in the fabricated lattice structures](images/jamt2026-fig11.png){.white-figure width="100%"}
 
 :::
 
@@ -105,7 +105,7 @@ The next stage of the research focused on transonic aeroelastic instabilities. M
 
 ![Metal AM flutter wing model](images/ast2023_fig31.png){width="100%"}
 
-![Transonic flutter characteristics](images/ast2023_fig32.png){width="100%"}
+![Transonic flutter characteristics](images/flutter.gif){width="100%"}
 
 :::
 
@@ -141,7 +141,6 @@ The resulting wing models achieved average surface roughness below 1 μm and ave
 
 :::
 
-## Structural Dynamics, Vibration Control and Sensing
 ## Structural Dynamics, Vibration Control and Sensing
 
 This research area focuses on the prediction, control, and experimental identification of vibration and deformation in flexible aerospace structures. The work integrates nonlinear structural dynamics, piezoelectric transduction, active and passive vibration control, strain-based sensing, system identification, and structural shape reconstruction.
