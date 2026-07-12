@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Research areas in aerospace structures, aeroelasticity, structural dynamics, and advanced materials.">
+
+<title>Research – Natsuki Tsushima</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e8964db687007ca8dd88d9d9ce58e3ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Natsuki Tsushima</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./recognition.html"> 
+<span class="menu-text">Recognition</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=ATxZpX0AAAAJ"> <i class="bi bi-mortarboard" role="img" aria-label="Google Scholar">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://orcid.org/0000-0003-0767-7295"> <i class="bi bi-person-circle" role="img" aria-label="ORCID">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ntsushima-ae"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:ntsushima@aero.kyushu-u.ac.jp"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#nonlinear-aeroelasticity-and-highly-flexible-wings" id="toc-nonlinear-aeroelasticity-and-highly-flexible-wings" class="nav-link active" data-scroll-target="#nonlinear-aeroelasticity-and-highly-flexible-wings">Nonlinear Aeroelasticity and Highly Flexible Wings</a></li>
+  <li><a href="#flutter-mechanism-diagnosis-and-aeroelastic-tailoring" id="toc-flutter-mechanism-diagnosis-and-aeroelastic-tailoring" class="nav-link" data-scroll-target="#flutter-mechanism-diagnosis-and-aeroelastic-tailoring">Flutter Mechanism Diagnosis and Aeroelastic Tailoring</a></li>
+  <li><a href="#aerospace-mechanical-metamaterials" id="toc-aerospace-mechanical-metamaterials" class="nav-link" data-scroll-target="#aerospace-mechanical-metamaterials">Aerospace Mechanical Metamaterials</a></li>
+  <li><a href="#additively-manufactured-wind-tunnel-models" id="toc-additively-manufactured-wind-tunnel-models" class="nav-link" data-scroll-target="#additively-manufactured-wind-tunnel-models">Additively Manufactured Wind-Tunnel Models</a></li>
+  <li><a href="#structural-dynamics-vibration-control-and-sensing" id="toc-structural-dynamics-vibration-control-and-sensing" class="nav-link" data-scroll-target="#structural-dynamics-vibration-control-and-sensing">Structural Dynamics, Vibration Control and Sensing</a></li>
+  <li><a href="#structural-dynamics-vibration-control-and-sensing-1" id="toc-structural-dynamics-vibration-control-and-sensing-1" class="nav-link" data-scroll-target="#structural-dynamics-vibration-control-and-sensing-1">Structural Dynamics, Vibration Control and Sensing</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research</h1>
+</div>
+
+<div>
+  <div class="description">
+    Research areas in aerospace structures, aeroelasticity, structural dynamics, and advanced materials.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>My research integrates computational mechanics, structural design, sensing, and experimental validation to address emerging challenges in aerospace structures.</p>
+<section id="nonlinear-aeroelasticity-and-highly-flexible-wings" class="level2">
+<h2 class="anchored" data-anchor-id="nonlinear-aeroelasticity-and-highly-flexible-wings">Nonlinear Aeroelasticity and Highly Flexible Wings</h2>
+<p>Highly flexible wings offer substantial aerodynamic and structural advantages but exhibit strong interactions among structural deformation, unsteady aerodynamic loading, and flight dynamics.</p>
+<p>The research addresses nonlinear aeroelastic modeling, reduced-order analysis, computational simulation, and experimental validation for highly flexible aerospace systems.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Anim1_2G_PullUp_FullSpan_LiftContour.gif" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Full-span lift-contour visualization during a 2-g pull-up maneuver.</figcaption>
+</figure>
+</div>
+</section>
+<section id="flutter-mechanism-diagnosis-and-aeroelastic-tailoring" class="level2">
+<h2 class="anchored" data-anchor-id="flutter-mechanism-diagnosis-and-aeroelastic-tailoring">Flutter Mechanism Diagnosis and Aeroelastic Tailoring</h2>
+<p>This research develops spatial and component-resolved methods for identifying the physical mechanisms that drive or suppress flutter.</p>
+<p>A central topic is spatial aerodynamic work mapping, which provides a physically interpretable connection between unsteady aerodynamic forces, structural deformation, and flutter stability.</p>
+</section>
+<section id="aerospace-mechanical-metamaterials" class="level2">
+<h2 class="anchored" data-anchor-id="aerospace-mechanical-metamaterials">Aerospace Mechanical Metamaterials</h2>
+<p>Mechanical metamaterials enable vibration and elastic-wave propagation to be controlled through deliberately designed internal architectures. My research integrates dispersion analysis, multiscale structural analysis, additive manufacturing, uncertainty quantification, and experimental validation to develop lightweight and multifunctional metamaterial structures for aerospace and mechanical systems.</p>
+<p>A particular focus is the creation of low-frequency bandgaps in compact load-bearing structures. Complex dispersion analysis is used not only to identify the frequency ranges of bandgaps, but also to quantify how rapidly elastic waves decay inside the structures.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/mechanical-metamaterial-decay-constants.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Complex-dispersion decay constants</figcaption>
+</figure>
+</div>
+<p>The distributed Added Mass concept provides inertial tuning of the bandgap frequency while largely retaining the attenuation mechanism of the reference lattice. In contrast, the Meander concept uses spatially folded load paths to shift the bandgap toward lower frequencies and substantially increase the spatial decay rate, enabling strong vibration attenuation within a compact structural domain.</p>
+<section id="additively-manufactured-metamaterial-prototypes" class="level3">
+<h3 class="anchored" data-anchor-id="additively-manufactured-metamaterial-prototypes">Additively Manufactured Metamaterial Prototypes</h3>
+<p>The two vibration-control concepts were integrated into finite circular structures and fabricated from maraging steel using powder-bed-fusion additive manufacturing. The Added Mass design introduces distributed inertial elements at the lattice vertices, whereas the Meander design uses folded structural paths to reduce the effective stiffness and enhance low-frequency attenuation.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fig8a_mass_disk.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Mechanical metamaterial disk (Added Mass)</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fig8b_stiff_disk.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Mechanical metamaterial disk (Meander)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The fabricated prototypes demonstrate the feasibility of realizing complex vibration-control architectures in compact load-bearing components. They also provide a platform for investigating the effects of manufacturing uncertainty, geometric deviation, and effective material-property degradation on practical attenuation performance.</p>
+<div class="figure-source">
+<p><strong>Figure sources:</strong> Adapted from Figs. 9 and 14 in N. Tsushima, M. Ohishi, and T. Kasai, “Predicting low-frequency attenuation in additively manufactured mechanical metamaterials via complex dispersion analysis and uncertainty quantification,” <em>Journal of Sound and Vibration</em>, Vol. 642, 119970, 2026. https://doi.org/10.1016/j.jsv.2026.119970. Licensed under https://creativecommons.org/licenses/by-nc/4.0/. The original figures were separated, converted from TIFF to PNG, and resized for web presentation; no scientific content was altered.</p>
+</div>
+</section>
+<section id="manufacturing-aware-design-of-metallic-lattice-structures" class="level3">
+<h3 class="anchored" data-anchor-id="manufacturing-aware-design-of-metallic-lattice-structures">Manufacturing-Aware Design of Metallic Lattice Structures</h3>
+<p>The mechanical performance of additively manufactured lattice structures depends not only on their nominal architecture but also on the geometrical fidelity of the as-built microstructure. Even small deviations in lattice-beam width and thickness can alter the effective stiffness, strength, and dynamic response of the resulting structure.</p>
+<p>My research develops an integrated prediction framework that combines thermomechanical process simulation with melt-pool dimensions, surface-tension-induced bulging, and beam-offset effects. This approach captures local geometrical deviations that cannot be explained by thermal deformation alone.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/jamt2026-fig03.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Lattice structures</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/jamt2026-fig11.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Contributions for the geometrical difference in the fabricated lattice structures</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The resulting geometry predictions are used to optimize laser power, scanning speed, and beam offset for powder-bed-fusion fabrication. Experimental measurements of AlSi10Mg lattice specimens demonstrated substantial improvements in dimensional accuracy, with most optimized dimensions differing by less than 5% from the original CAD design.</p>
+<p>Numerical homogenization and tensile testing are subsequently used to quantify how manufacturing-induced geometrical deviations affect the effective structural properties of lattice-based materials. This manufacturing-aware workflow connects process parameters, as-built geometry, and structural performance, supporting the reliable realization of aerospace mechanical metamaterials.</p>
+<div class="figure-source">
+<p><strong>Figure sources:</strong> Figs. 3 and 11 reproduced without modification from N. Tsushima, M. Kita, I. Matsubara, M. Ohishi, K. Kaneko, K. Mitsui, T. Kanzawa, R. Higuchi, and K. Yamamoto, “Accurate geometrical prediction and process optimization of additively manufactured metallic lattice structures via integrated thermomechanical and melt pool analysis,” <em>The International Journal of Advanced Manufacturing Technology</em>, 2026. https://doi.org/10.1007/s00170-026-17692-8. Licensed under https://creativecommons.org/licenses/by-nc-nd/4.0/. The complete original figures are displayed side by side and resized only for web presentation; the scientific and graphical content has not been modified.</p>
+</div>
+</section>
+</section>
+<section id="additively-manufactured-wind-tunnel-models" class="level2">
+<h2 class="anchored" data-anchor-id="additively-manufactured-wind-tunnel-models">Additively Manufactured Wind-Tunnel Models</h2>
+<p>Wind-tunnel experiments remain indispensable for validating aeroelastic prediction methods and investigating complex fluid–structure interactions. My research develops additively manufactured wind-tunnel models that accurately reproduce structural and aeroelastic characteristics while significantly reducing fabrication cost and development time.</p>
+<p>The work has evolved through three stages: geometrically nonlinear highly flexible wing models, transonic flutter wing models fabricated by metal additive manufacturing, and hybrid additive–subtractive manufacturing methods for highly reproducible aeroelastic experiments.</p>
+<section id="large-deformation-aeroelasticity-of-flexible-3d-printed-wings" class="level3">
+<h3 class="anchored" data-anchor-id="large-deformation-aeroelasticity-of-flexible-3d-printed-wings">Large-Deformation Aeroelasticity of Flexible 3D-Printed Wings</h3>
+<p>The development of additively manufactured aeroelastic models began with a highly flexible, high-aspect-ratio wing fabricated from thermoplastic material. The model provided a cost-effective and geometrically simple experimental platform for directly validating shell-based nonlinear aeroelastic analysis.</p>
+<p>Wind-tunnel testing demonstrated that geometrically nonlinear effects become increasingly important as the deformation grows. At the highest test condition, the wing-tip displacement reached approximately 16% of the semi-span. The geometrically nonlinear prediction agreed with the experimental measurement within approximately 1.4%, whereas the linear solution showed an error of approximately 9.4%.</p>
+<p>This study demonstrated both the feasibility of additively manufactured flexible wind-tunnel models and the importance of geometrically nonlinear analysis for highly flexible wings.</p>
+<p><strong>Related publication:</strong><br>
+N. Tsushima, M. Tamayama, H. Arizono, and K. Makihara, “Geometrically nonlinear aeroelastic characteristics of highly flexible wing fabricated by additive manufacturing,” <em>Aerospace Science and Technology</em>, Vol. 117, 106923, 2021. https://doi.org/10.1016/j.ast.2021.106923</p>
+</section>
+<section id="transonic-flutter-models" class="level3">
+<h3 class="anchored" data-anchor-id="transonic-flutter-models">Transonic Flutter Models</h3>
+<p>The next stage of the research focused on transonic aeroelastic instabilities. Metal additive manufacturing using AlSi10Mg alloys was adopted to create dynamically representative flutter models capable of reproducing prescribed structural and modal characteristics while maintaining realistic aerodynamic geometries.</p>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ast2023_fig1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Metal AM wing models</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ast2023_fig31.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Metal AM flutter wing model</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ast2023_fig32.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Transonic flutter characteristics</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The fabricated flutter wing models achieved dimensional accuracies within approximately 0.16 mm and average surface roughness around 1 μm. Static and modal experiments confirmed agreement with finite-element predictions, while transonic wind-tunnel testing successfully reproduced nonlinear aeroelastic phenomena including limit-cycle oscillation (LCO) and the transonic dip. The experiments provided direct validation data for high-fidelity aeroelastic simulations and demonstrated that metal additive manufacturing can be used to construct reliable flutter models for transonic testing.</p>
+<div class="figure-source">
+<p><strong>Figure source:</strong> Figs. 1 and 32 reproduced without modification from N. Tsushima, K. Saitoh, and K. Nakakita, “Structural and aeroelastic characteristics of wing model for transonic flutter wind tunnel test fabricated by additive manufacturing with AlSi10Mg alloys,” <em>Aerospace Science and Technology</em>, Vol. 140, 108476, 2023. https://doi.org/10.1016/j.ast.2023.108476. Licensed under https://creativecommons.org/licenses/by-nc-nd/4.0/.</p>
+</div>
+</section>
+<section id="reproducible-hybrid-manufacturing" class="level3">
+<h3 class="anchored" data-anchor-id="reproducible-hybrid-manufacturing">Reproducible Hybrid Manufacturing</h3>
+<p>Recent work has further extended the concept by systematically combining additive manufacturing and precision CNC machining. The objective is to improve geometrical accuracy, surface quality, and model-to-model reproducibility for aeroelastic testing.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fig12_TRA_final_picture.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Hybrid AM + machining wing model</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fig24_Flutter_wing6_wing6-1-2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Transonic flutter boundary</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The hybrid manufacturing framework first fabricates near-net-shape wing models using powder-bed-fusion additive manufacturing and subsequently applies precision machining to critical aerodynamic surfaces and trailing edges. This process substantially reduces the variability associated with manual polishing while enabling systematic quality control.</p>
+<p>The resulting wing models achieved average surface roughness below 1 μm and average surface deviations below 0.3 mm. Independent wing models fabricated using the same process exhibited flutter frequencies of 157 Hz and 158 Hz, demonstrating excellent repeatability of both structural and aeroelastic characteristics. This capability enables reliable uncertainty quantification, repeatable aeroelastic testing, and efficient validation of numerical simulation tools.</p>
+<div class="figure-source">
+<p><strong>Figure source:</strong> Figs. 12 and 24 reproduced from N. Tsushima, K. Soneda, K. Saitoh, and K. Nakakita, “Construction of flexible wing models by combined manufacturing of additive and subtractive processes for transonic wind tunnel testing,” <em>Aerospace Science and Technology</em>, Vol. 167, 110665, 2025. https://doi.org/10.1016/j.ast.2025.110665. Licensed under https://creativecommons.org/licenses/by-nc/4.0/.</p>
+</div>
+</section>
+</section>
+<section id="structural-dynamics-vibration-control-and-sensing" class="level2">
+<h2 class="anchored" data-anchor-id="structural-dynamics-vibration-control-and-sensing">Structural Dynamics, Vibration Control and Sensing</h2>
+</section>
+<section id="structural-dynamics-vibration-control-and-sensing-1" class="level2">
+<h2 class="anchored" data-anchor-id="structural-dynamics-vibration-control-and-sensing-1">Structural Dynamics, Vibration Control and Sensing</h2>
+<p>This research area focuses on the prediction, control, and experimental identification of vibration and deformation in flexible aerospace structures. The work integrates nonlinear structural dynamics, piezoelectric transduction, active and passive vibration control, strain-based sensing, system identification, and structural shape reconstruction.</p>
+<p>A central objective is to develop lightweight multifunctional structures that can simultaneously carry mechanical loads, monitor their dynamic state, suppress undesirable vibration, and support the validation of computational models. These technologies are applicable to flexible aircraft, launch vehicles, spacecraft structures, propulsion systems, and advanced composite or additively manufactured structures.</p>
+<section id="piezoelectric-aeroelastic-control-and-energy-harvesting" class="level3">
+<h3 class="anchored" data-anchor-id="piezoelectric-aeroelastic-control-and-energy-harvesting">Piezoelectric Aeroelastic Control and Energy Harvesting</h3>
+<p>My research on multifunctional flexible wings investigates the concurrent use of piezoelectric materials for structural actuation, passive shunt damping, vibration-energy harvesting, and aeroelastic stabilization.</p>
+<p>A geometrically nonlinear electro-aeroelastic framework was developed to represent strongly coupled interactions among large structural deformation, unsteady aerodynamic loading, piezoelectric actuation, electrical energy conversion, and feedback control. Active flutter suppression was implemented using a Linear Quadratic Gaussian controller, while piezoelectric energy harvesters provided additional passive damping and converted residual structural vibration into electrical energy.</p>
+<p>The studies demonstrated that highly flexible wings can be stabilized through an appropriate combination of active piezoelectric control near the wing root and passive damping or energy harvesting over the remaining span. This multifunctional approach provides a basis for adaptive aerospace structures that combine aeroelastic control, vibration suppression, sensing, and onboard energy management.</p>
+<p><strong>Related publication:</strong><br>
+N. Tsushima and W. Su, “Flutter suppression for highly flexible wings using passive and active piezoelectric effects,” <em>Aerospace Science and Technology</em>, Vol. 65, pp.&nbsp;78–89, 2017. https://doi.org/10.1016/j.ast.2017.02.013</p>
+</section>
+<section id="vibration-monitoring-of-flexible-launch-vehicles" class="level3">
+<h3 class="anchored" data-anchor-id="vibration-monitoring-of-flexible-launch-vehicles">Vibration Monitoring of Flexible Launch Vehicles</h3>
+<p>In collaborative research involving researchers from NASA Kennedy Space Center, the University of Alabama, Florida Institute of Technology, and a.i. solutions, strain-instrumented reference structures were investigated for monitoring the multi-axial vibration of flexible launch vehicles.</p>
+<p>The concept uses removable reference strain structures attached longitudinally to a launch-vehicle surface. Distributed strain sensors installed on these structures indirectly track the bending and torsional deformation of the vehicle. A surrogate-based multi-objective optimization framework was developed to determine the structural dimensions, attachment configuration, and sensor spacing required for accurate deformation reconstruction while avoiding undesirable dynamic interaction with the launch vehicle.</p>
+<p>Transient numerical studies demonstrated accurate reconstruction of multi-axial bending deformation under different excitation frequencies and loading directions. The modular sensing concept provides a pathway toward structural-state estimation, vibration monitoring, experimental modal identification, and the future integration of flexible-vehicle dynamics with guidance and control systems.</p>
+<p><strong>Related publication:</strong><br>
+N. Tsushima, W. Su, H. Gutierrez, M. G. Wolf, E. D. Griffin, J. T. Whittaker, and M. P. Dumoulin, “Monitoring multi-axial vibrations of flexible rockets using sensor-instrumented reference strain structures,” <em>Aerospace Science and Technology</em>, Vol. 71, pp.&nbsp;285–298, 2017. https://doi.org/10.1016/j.ast.2017.09.026</p>
+</section>
+<section id="strain-based-shape-sensing-for-aeroelastic-testing" class="level3">
+<h3 class="anchored" data-anchor-id="strain-based-shape-sensing-for-aeroelastic-testing">Strain-Based Shape Sensing for Aeroelastic Testing</h3>
+<p>Recent international collaboration with the DLR Institute of Aeroelasticity has extended strain-based structural monitoring to additively manufactured wing models for transonic wind-tunnel testing.</p>
+<p>The research investigates how sparse arrays of strain measurements can be integrated into swept and tapered wing models and used to reconstruct bending deformation and twist. Ko’s displacement theory provides a computationally efficient relationship between distributed strain measurements and structural shape without requiring direct knowledge of the complete loading distribution.</p>
+<p>Numerical studies demonstrated that the approach can accurately reconstruct the deformation of swept and tapered wings with unsymmetric supercritical airfoils. For a representative transonic wing model, the reconstructed bending deflections showed errors below 1%, while the average error in the predicted twist remained below 5%.</p>
+<p>The integrated sensing concept supports real-time deformation monitoring, experimental aeroelastic identification, model validation, and the development of smart wind-tunnel models with embedded or surface-integrated sensing systems.</p>
+<p><strong>Related publication:</strong><br>
+N. Tsushima, H. Mai, M. Braune, and T. Buete, “Shape identification of a wing model by additive manufacturing for transonic wind tunnel testing,” <em>International Forum on Aeroelasticity and Structural Dynamics 2024</em>, IFASD-2024-200, The Hague, The Netherlands, 2024.</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Natsuki Tsushima</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Personal research website</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ntsushima-ae">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

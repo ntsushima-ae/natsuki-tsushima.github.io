@@ -1,0 +1,268 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research integrates computational mechanics, structural design, sensing, and experimental validation to address emerging challenges in aerospace structures."
+  },
+  {
+    "objectID": "research.html#nonlinear-aeroelasticity-and-highly-flexible-wings",
+    "href": "research.html#nonlinear-aeroelasticity-and-highly-flexible-wings",
+    "title": "Research",
+    "section": "Nonlinear Aeroelasticity and Highly Flexible Wings",
+    "text": "Nonlinear Aeroelasticity and Highly Flexible Wings\nHighly flexible wings offer substantial aerodynamic and structural advantages but exhibit strong interactions among structural deformation, unsteady aerodynamic loading, and flight dynamics.\nThe research addresses nonlinear aeroelastic modeling, reduced-order analysis, computational simulation, and experimental validation for highly flexible aerospace systems.\n\n\n\nFull-span lift-contour visualization during a 2-g pull-up maneuver."
+  },
+  {
+    "objectID": "research.html#flutter-mechanism-diagnosis-and-aeroelastic-tailoring",
+    "href": "research.html#flutter-mechanism-diagnosis-and-aeroelastic-tailoring",
+    "title": "Research",
+    "section": "Flutter Mechanism Diagnosis and Aeroelastic Tailoring",
+    "text": "Flutter Mechanism Diagnosis and Aeroelastic Tailoring\nThis research develops spatial and component-resolved methods for identifying the physical mechanisms that drive or suppress flutter.\nA central topic is spatial aerodynamic work mapping, which provides a physically interpretable connection between unsteady aerodynamic forces, structural deformation, and flutter stability."
+  },
+  {
+    "objectID": "research.html#aerospace-mechanical-metamaterials",
+    "href": "research.html#aerospace-mechanical-metamaterials",
+    "title": "Research",
+    "section": "Aerospace Mechanical Metamaterials",
+    "text": "Aerospace Mechanical Metamaterials\nMechanical metamaterials enable vibration and elastic-wave propagation to be controlled through deliberately designed internal architectures. My research integrates dispersion analysis, multiscale structural analysis, additive manufacturing, uncertainty quantification, and experimental validation to develop lightweight and multifunctional metamaterial structures for aerospace and mechanical systems.\nA particular focus is the creation of low-frequency bandgaps in compact load-bearing structures. Complex dispersion analysis is used not only to identify the frequency ranges of bandgaps, but also to quantify how rapidly elastic waves decay inside the structures.\n\n\n\nComplex-dispersion decay constants\n\n\nThe distributed Added Mass concept provides inertial tuning of the bandgap frequency while largely retaining the attenuation mechanism of the reference lattice. In contrast, the Meander concept uses spatially folded load paths to shift the bandgap toward lower frequencies and substantially increase the spatial decay rate, enabling strong vibration attenuation within a compact structural domain.\n\nAdditively Manufactured Metamaterial Prototypes\nThe two vibration-control concepts were integrated into finite circular structures and fabricated from maraging steel using powder-bed-fusion additive manufacturing. The Added Mass design introduces distributed inertial elements at the lattice vertices, whereas the Meander design uses folded structural paths to reduce the effective stiffness and enhance low-frequency attenuation.\n\n\n\n\n\n\nMechanical metamaterial disk (Added Mass)\n\n\n\n\n\n\n\nMechanical metamaterial disk (Meander)\n\n\n\n\n\nThe fabricated prototypes demonstrate the feasibility of realizing complex vibration-control architectures in compact load-bearing components. They also provide a platform for investigating the effects of manufacturing uncertainty, geometric deviation, and effective material-property degradation on practical attenuation performance.\n\nFigure sources: Adapted from Figs. 9 and 14 in N. Tsushima, M. Ohishi, and T. Kasai, “Predicting low-frequency attenuation in additively manufactured mechanical metamaterials via complex dispersion analysis and uncertainty quantification,” Journal of Sound and Vibration, Vol. 642, 119970, 2026. https://doi.org/10.1016/j.jsv.2026.119970. Licensed under https://creativecommons.org/licenses/by-nc/4.0/. The original figures were separated, converted from TIFF to PNG, and resized for web presentation; no scientific content was altered.\n\n\n\nManufacturing-Aware Design of Metallic Lattice Structures\nThe mechanical performance of additively manufactured lattice structures depends not only on their nominal architecture but also on the geometrical fidelity of the as-built microstructure. Even small deviations in lattice-beam width and thickness can alter the effective stiffness, strength, and dynamic response of the resulting structure.\nMy research develops an integrated prediction framework that combines thermomechanical process simulation with melt-pool dimensions, surface-tension-induced bulging, and beam-offset effects. This approach captures local geometrical deviations that cannot be explained by thermal deformation alone.\n\n\n\n\n\n\nLattice structures\n\n\n\n\n\n\n\nContributions for the geometrical difference in the fabricated lattice structures\n\n\n\n\n\nThe resulting geometry predictions are used to optimize laser power, scanning speed, and beam offset for powder-bed-fusion fabrication. Experimental measurements of AlSi10Mg lattice specimens demonstrated substantial improvements in dimensional accuracy, with most optimized dimensions differing by less than 5% from the original CAD design.\nNumerical homogenization and tensile testing are subsequently used to quantify how manufacturing-induced geometrical deviations affect the effective structural properties of lattice-based materials. This manufacturing-aware workflow connects process parameters, as-built geometry, and structural performance, supporting the reliable realization of aerospace mechanical metamaterials.\n\nFigure sources: Figs. 3 and 11 reproduced without modification from N. Tsushima, M. Kita, I. Matsubara, M. Ohishi, K. Kaneko, K. Mitsui, T. Kanzawa, R. Higuchi, and K. Yamamoto, “Accurate geometrical prediction and process optimization of additively manufactured metallic lattice structures via integrated thermomechanical and melt pool analysis,” The International Journal of Advanced Manufacturing Technology, 2026. https://doi.org/10.1007/s00170-026-17692-8. Licensed under https://creativecommons.org/licenses/by-nc-nd/4.0/. The complete original figures are displayed side by side and resized only for web presentation; the scientific and graphical content has not been modified."
+  },
+  {
+    "objectID": "research.html#additively-manufactured-wind-tunnel-models",
+    "href": "research.html#additively-manufactured-wind-tunnel-models",
+    "title": "Research",
+    "section": "Additively Manufactured Wind-Tunnel Models",
+    "text": "Additively Manufactured Wind-Tunnel Models\nWind-tunnel experiments remain indispensable for validating aeroelastic prediction methods and investigating complex fluid–structure interactions. My research develops additively manufactured wind-tunnel models that accurately reproduce structural and aeroelastic characteristics while significantly reducing fabrication cost and development time.\nThe work has evolved through three stages: geometrically nonlinear highly flexible wing models, transonic flutter wing models fabricated by metal additive manufacturing, and hybrid additive–subtractive manufacturing methods for highly reproducible aeroelastic experiments.\n\nLarge-Deformation Aeroelasticity of Flexible 3D-Printed Wings\nThe development of additively manufactured aeroelastic models began with a highly flexible, high-aspect-ratio wing fabricated from thermoplastic material. The model provided a cost-effective and geometrically simple experimental platform for directly validating shell-based nonlinear aeroelastic analysis.\nWind-tunnel testing demonstrated that geometrically nonlinear effects become increasingly important as the deformation grows. At the highest test condition, the wing-tip displacement reached approximately 16% of the semi-span. The geometrically nonlinear prediction agreed with the experimental measurement within approximately 1.4%, whereas the linear solution showed an error of approximately 9.4%.\nThis study demonstrated both the feasibility of additively manufactured flexible wind-tunnel models and the importance of geometrically nonlinear analysis for highly flexible wings.\nRelated publication:\nN. Tsushima, M. Tamayama, H. Arizono, and K. Makihara, “Geometrically nonlinear aeroelastic characteristics of highly flexible wing fabricated by additive manufacturing,” Aerospace Science and Technology, Vol. 117, 106923, 2021. https://doi.org/10.1016/j.ast.2021.106923\n\n\nTransonic Flutter Models\nThe next stage of the research focused on transonic aeroelastic instabilities. Metal additive manufacturing using AlSi10Mg alloys was adopted to create dynamically representative flutter models capable of reproducing prescribed structural and modal characteristics while maintaining realistic aerodynamic geometries.\n\n\n\n\n\n\nMetal AM wing models\n\n\n\n\n\n\n\nMetal AM flutter wing model\n\n\n\n\n\n\n\nTransonic flutter characteristics\n\n\n\n\n\nThe fabricated flutter wing models achieved dimensional accuracies within approximately 0.16 mm and average surface roughness around 1 μm. Static and modal experiments confirmed agreement with finite-element predictions, while transonic wind-tunnel testing successfully reproduced nonlinear aeroelastic phenomena including limit-cycle oscillation (LCO) and the transonic dip. The experiments provided direct validation data for high-fidelity aeroelastic simulations and demonstrated that metal additive manufacturing can be used to construct reliable flutter models for transonic testing.\n\nFigure source: Figs. 1 and 32 reproduced without modification from N. Tsushima, K. Saitoh, and K. Nakakita, “Structural and aeroelastic characteristics of wing model for transonic flutter wind tunnel test fabricated by additive manufacturing with AlSi10Mg alloys,” Aerospace Science and Technology, Vol. 140, 108476, 2023. https://doi.org/10.1016/j.ast.2023.108476. Licensed under https://creativecommons.org/licenses/by-nc-nd/4.0/.\n\n\n\nReproducible Hybrid Manufacturing\nRecent work has further extended the concept by systematically combining additive manufacturing and precision CNC machining. The objective is to improve geometrical accuracy, surface quality, and model-to-model reproducibility for aeroelastic testing.\n\n\n\n\n\n\nHybrid AM + machining wing model\n\n\n\n\n\n\n\nTransonic flutter boundary\n\n\n\n\n\nThe hybrid manufacturing framework first fabricates near-net-shape wing models using powder-bed-fusion additive manufacturing and subsequently applies precision machining to critical aerodynamic surfaces and trailing edges. This process substantially reduces the variability associated with manual polishing while enabling systematic quality control.\nThe resulting wing models achieved average surface roughness below 1 μm and average surface deviations below 0.3 mm. Independent wing models fabricated using the same process exhibited flutter frequencies of 157 Hz and 158 Hz, demonstrating excellent repeatability of both structural and aeroelastic characteristics. This capability enables reliable uncertainty quantification, repeatable aeroelastic testing, and efficient validation of numerical simulation tools.\n\nFigure source: Figs. 12 and 24 reproduced from N. Tsushima, K. Soneda, K. Saitoh, and K. Nakakita, “Construction of flexible wing models by combined manufacturing of additive and subtractive processes for transonic wind tunnel testing,” Aerospace Science and Technology, Vol. 167, 110665, 2025. https://doi.org/10.1016/j.ast.2025.110665. Licensed under https://creativecommons.org/licenses/by-nc/4.0/."
+  },
+  {
+    "objectID": "research.html#structural-dynamics-vibration-control-and-sensing",
+    "href": "research.html#structural-dynamics-vibration-control-and-sensing",
+    "title": "Research",
+    "section": "Structural Dynamics, Vibration Control and Sensing",
+    "text": "Structural Dynamics, Vibration Control and Sensing"
+  },
+  {
+    "objectID": "research.html#structural-dynamics-vibration-control-and-sensing-1",
+    "href": "research.html#structural-dynamics-vibration-control-and-sensing-1",
+    "title": "Research",
+    "section": "Structural Dynamics, Vibration Control and Sensing",
+    "text": "Structural Dynamics, Vibration Control and Sensing\nThis research area focuses on the prediction, control, and experimental identification of vibration and deformation in flexible aerospace structures. The work integrates nonlinear structural dynamics, piezoelectric transduction, active and passive vibration control, strain-based sensing, system identification, and structural shape reconstruction.\nA central objective is to develop lightweight multifunctional structures that can simultaneously carry mechanical loads, monitor their dynamic state, suppress undesirable vibration, and support the validation of computational models. These technologies are applicable to flexible aircraft, launch vehicles, spacecraft structures, propulsion systems, and advanced composite or additively manufactured structures.\n\nPiezoelectric Aeroelastic Control and Energy Harvesting\nMy research on multifunctional flexible wings investigates the concurrent use of piezoelectric materials for structural actuation, passive shunt damping, vibration-energy harvesting, and aeroelastic stabilization.\nA geometrically nonlinear electro-aeroelastic framework was developed to represent strongly coupled interactions among large structural deformation, unsteady aerodynamic loading, piezoelectric actuation, electrical energy conversion, and feedback control. Active flutter suppression was implemented using a Linear Quadratic Gaussian controller, while piezoelectric energy harvesters provided additional passive damping and converted residual structural vibration into electrical energy.\nThe studies demonstrated that highly flexible wings can be stabilized through an appropriate combination of active piezoelectric control near the wing root and passive damping or energy harvesting over the remaining span. This multifunctional approach provides a basis for adaptive aerospace structures that combine aeroelastic control, vibration suppression, sensing, and onboard energy management.\nRelated publication:\nN. Tsushima and W. Su, “Flutter suppression for highly flexible wings using passive and active piezoelectric effects,” Aerospace Science and Technology, Vol. 65, pp. 78–89, 2017. https://doi.org/10.1016/j.ast.2017.02.013\n\n\nVibration Monitoring of Flexible Launch Vehicles\nIn collaborative research involving researchers from NASA Kennedy Space Center, the University of Alabama, Florida Institute of Technology, and a.i. solutions, strain-instrumented reference structures were investigated for monitoring the multi-axial vibration of flexible launch vehicles.\nThe concept uses removable reference strain structures attached longitudinally to a launch-vehicle surface. Distributed strain sensors installed on these structures indirectly track the bending and torsional deformation of the vehicle. A surrogate-based multi-objective optimization framework was developed to determine the structural dimensions, attachment configuration, and sensor spacing required for accurate deformation reconstruction while avoiding undesirable dynamic interaction with the launch vehicle.\nTransient numerical studies demonstrated accurate reconstruction of multi-axial bending deformation under different excitation frequencies and loading directions. The modular sensing concept provides a pathway toward structural-state estimation, vibration monitoring, experimental modal identification, and the future integration of flexible-vehicle dynamics with guidance and control systems.\nRelated publication:\nN. Tsushima, W. Su, H. Gutierrez, M. G. Wolf, E. D. Griffin, J. T. Whittaker, and M. P. Dumoulin, “Monitoring multi-axial vibrations of flexible rockets using sensor-instrumented reference strain structures,” Aerospace Science and Technology, Vol. 71, pp. 285–298, 2017. https://doi.org/10.1016/j.ast.2017.09.026\n\n\nStrain-Based Shape Sensing for Aeroelastic Testing\nRecent international collaboration with the DLR Institute of Aeroelasticity has extended strain-based structural monitoring to additively manufactured wing models for transonic wind-tunnel testing.\nThe research investigates how sparse arrays of strain measurements can be integrated into swept and tapered wing models and used to reconstruct bending deformation and twist. Ko’s displacement theory provides a computationally efficient relationship between distributed strain measurements and structural shape without requiring direct knowledge of the complete loading distribution.\nNumerical studies demonstrated that the approach can accurately reconstruct the deformation of swept and tapered wings with unsymmetric supercritical airfoils. For a representative transonic wing model, the reconstructed bending deflections showed errors below 1%, while the average error in the predicted twist remained below 5%.\nThe integrated sensing concept supports real-time deformation monitoring, experimental aeroelastic identification, model validation, and the development of smart wind-tunnel models with embedded or surface-integrated sensing systems.\nRelated publication:\nN. Tsushima, H. Mai, M. Braune, and T. Buete, “Shape identification of a wing model by additive manufacturing for transonic wind tunnel testing,” International Forum on Aeroelasticity and Structural Dynamics 2024, IFASD-2024-200, The Hague, The Netherlands, 2024."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "N. Tsushima, M. Kita, I. Matsubara, M. Ohishi, K. Kaneko, K. Mitsui, T. Kanzawa, R. Higuchi, and K. Yamamoto,\n“Accurate geometrical prediction and process optimization of additively manufactured metallic lattice structures via integrated thermomechanical and melt pool analysis,”\nThe International Journal of Advanced Manufacturing Technology, Vol. 143, pp. 1807–1821, 2026.\nDOI\nAn integrated thermomechanical and melt-pool-based framework for predicting as-built lattice geometry and optimizing metal additive-manufacturing parameters.\nE. Nakagawa, T. Yokozeki, and N. Tsushima,\n“Topology optimization framework for designing elastic wind tunnel models with additive manufacturing,”\nAerospace Science and Technology, Vol. 168, 111372, 2026.\nDOI\nA structural optimization framework for realizing prescribed elastic and modal characteristics in additively manufactured wind-tunnel models.\nN. Tsushima, M. Ohishi, and T. Kasai,\n“Predicting low-frequency attenuation in additively manufactured mechanical metamaterials via complex dispersion analysis and uncertainty quantification,”\nJournal of Sound and Vibration, Vol. 642, 119970, 2026. DOI\nComplex-dispersion analysis and uncertainty quantification for predicting low-frequency wave attenuation in additively manufactured mechanical metamaterials.\n\n\n\nK. Soneda, N. Tsushima, T. Yokozeki, and T. Imamura,\n“Longitudinal aeroelastic flight simulations of active morphing aircraft with corrugated structures,”\nAIAA Journal, Vol. 64, No. 4, 2026; published online November 18, 2025.\nDOI\nAn integrated simulation of structural deformation, unsteady aerodynamics, rigid-body flight dynamics, and active control for morphing aircraft.\nN. Tsushima, K. Soneda, K. Saitoh, and K. Nakakita,\n“Construction of flexible wing models by combined manufacturing of additive and subtractive processes for transonic wind tunnel testing,”\nAerospace Science and Technology, Vol. 167, 110665, 2025.\nDOI\nA hybrid metal-additive and precision-machining process for producing geometrically accurate and reproducible transonic aeroelastic wind-tunnel models.\n\n\n\nN. Tsushima, Y. Hayashi, and T. Yokozeki,\n“Dispersion analysis of plane wave propagation in lattice-based mechanical metamaterial for vibration suppression,”\nAerospace, Vol. 11, No. 8, 637, 2024.\nDOI\nA dispersion-based investigation of elastic-wave propagation and vibration-suppression mechanisms in lattice-based mechanical metamaterials."
+  },
+  {
+    "objectID": "publications.html#selected-recent-publications",
+    "href": "publications.html#selected-recent-publications",
+    "title": "Publications",
+    "section": "",
+    "text": "N. Tsushima, M. Kita, I. Matsubara, M. Ohishi, K. Kaneko, K. Mitsui, T. Kanzawa, R. Higuchi, and K. Yamamoto,\n“Accurate geometrical prediction and process optimization of additively manufactured metallic lattice structures via integrated thermomechanical and melt pool analysis,”\nThe International Journal of Advanced Manufacturing Technology, Vol. 143, pp. 1807–1821, 2026.\nDOI\nAn integrated thermomechanical and melt-pool-based framework for predicting as-built lattice geometry and optimizing metal additive-manufacturing parameters.\nE. Nakagawa, T. Yokozeki, and N. Tsushima,\n“Topology optimization framework for designing elastic wind tunnel models with additive manufacturing,”\nAerospace Science and Technology, Vol. 168, 111372, 2026.\nDOI\nA structural optimization framework for realizing prescribed elastic and modal characteristics in additively manufactured wind-tunnel models.\nN. Tsushima, M. Ohishi, and T. Kasai,\n“Predicting low-frequency attenuation in additively manufactured mechanical metamaterials via complex dispersion analysis and uncertainty quantification,”\nJournal of Sound and Vibration, Vol. 642, 119970, 2026. DOI\nComplex-dispersion analysis and uncertainty quantification for predicting low-frequency wave attenuation in additively manufactured mechanical metamaterials.\n\n\n\nK. Soneda, N. Tsushima, T. Yokozeki, and T. Imamura,\n“Longitudinal aeroelastic flight simulations of active morphing aircraft with corrugated structures,”\nAIAA Journal, Vol. 64, No. 4, 2026; published online November 18, 2025.\nDOI\nAn integrated simulation of structural deformation, unsteady aerodynamics, rigid-body flight dynamics, and active control for morphing aircraft.\nN. Tsushima, K. Soneda, K. Saitoh, and K. Nakakita,\n“Construction of flexible wing models by combined manufacturing of additive and subtractive processes for transonic wind tunnel testing,”\nAerospace Science and Technology, Vol. 167, 110665, 2025.\nDOI\nA hybrid metal-additive and precision-machining process for producing geometrically accurate and reproducible transonic aeroelastic wind-tunnel models.\n\n\n\nN. Tsushima, Y. Hayashi, and T. Yokozeki,\n“Dispersion analysis of plane wave propagation in lattice-based mechanical metamaterial for vibration suppression,”\nAerospace, Vol. 11, No. 8, 637, 2024.\nDOI\nA dispersion-based investigation of elastic-wave propagation and vibration-suppression mechanisms in lattice-based mechanical metamaterials."
+  },
+  {
+    "objectID": "publications.html#selected-publications-by-topic",
+    "href": "publications.html#selected-publications-by-topic",
+    "title": "Publications",
+    "section": "Selected Publications by Topic",
+    "text": "Selected Publications by Topic\nThe following publications are grouped by research theme. Some works appear in more than one area because they connect multiple aspects of aeroelasticity, structural mechanics, advanced manufacturing, and multifunctional structures.\n\nAeroelasticity and Highly Flexible Wings\nThis research develops nonlinear aeroelastic methods for flexible and morphing aerospace structures, with emphasis on large deformation, flutter, unsteady aerodynamics, transonic instability, and aeroelastic design.\n\nN. Tsushima, H. Arizono, M. Tamayama,\n“Geometrically nonlinear flutter analysis with corotational shell finite element analysis and unsteady vortex-lattice method,”\nJournal of Sound and Vibration, Vol. 520, 116621, 2022.\nDOI\nN. Tsushima, M. Tamayama, H. Arizono, and K. Makihara,\n“Geometrically nonlinear aeroelastic characteristics of highly flexible wing fabricated by additive manufacturing,”\nAerospace Science and Technology, Vol. 117, 106923, 2021.\nDOI\nN. Tsushima, H. Arizono, T. Yokozeki, and W. Su,\n“Geometrically nonlinear static aeroelastic analysis of composite morphing wing with corrugated structures,”\nAerospace Science and Technology, Vol. 88, pp. 244–257, 2019.\nDOI\nN. Tsushima and W. Su,\n“Flutter suppression for highly flexible wings using passive and active piezoelectric effects,”\nAerospace Science and Technology, Vol. 65, pp. 78–89, 2017.\nDOI\n\n\n\nStructural Dynamics, Vibration Control, and Sensing\nThis research concerns vibration monitoring, multifunctional piezoelectric structures, active and passive control, energy harvesting, strain-based shape reconstruction, and system identification for flexible aerospace systems.\n\nN. Tsushima and W. Su,\n“A study on adaptive vibration control and energy conversion of highly flexible multifunctional wings,”\nAerospace Science and Technology, Vol. 79, pp. 297–309, 2018.\nDOI\nN. Tsushima, W. Su, H. Gutierrez, M. G. Wolf, E. D. Griffin, J. T. Whittaker, and M. P. Dumoulin,\n“Monitoring multi-axial vibrations of flexible rockets using sensor-instrumented reference strain structures,”\nAerospace Science and Technology, Vol. 71, pp. 285–298, 2017.\nDOI\nN. Tsushima and W. Su,\n“Flutter suppression for highly flexible wings using passive and active piezoelectric effects,”\nAerospace Science and Technology, Vol. 65, pp. 78–89, 2017.\nDOI\nN. Tsushima and W. Su,\n“Concurrent active piezoelectric control and energy harvesting of highly flexible multifunctional wings,”\nJournal of Aircraft, Vol. 54, No. 2, 2017.\nDOI\nN. Tsushima and W. Su,\n“Modeling of highly flexible multifunctional wings for energy harvesting,”\nJournal of Aircraft, Vol. 53, No. 4, 2016.\nDOI\n\n\n\nMorphing Aircraft and Composite Structures\nThis research investigates compliant and adaptive aerospace structures, including corrugated morphing components, composite tailoring, multifunctional wings, and coupled aeroelastic–flight-dynamic behavior.\n\nK. Soneda, N. Tsushima, T. Yokozeki, and T. Imamura,\n“Longitudinal aeroelastic flight simulations of active morphing aircraft with corrugated structures,”\nAIAA Journal, Vol. 64, No. 4, 2026; published online November 18, 2025.\nDOI\nK. Soneda, N. Tsushima, T. Yokozeki, and T. Imamura,\n“Aeroservoelastic characteristics of a corrugated morphing control surface,”\nInternational Journal of Aeronautical and Space Sciences, Vol. 23, pp. 723–733, 2022.\nDOI\nK. Soneda, T. Yokozeki, T. Imamura, and N. Tsushima,\n“Multifidelity aeroelastic model for corrugated morphing structures,”\nJournal of Aircraft, Vol. 60, No. 1, 2023; published online in 2022.\nDOI\nN. Tsushima, H. Arizono, T. Yokozeki, and W. Su,\n“Geometrically nonlinear static aeroelastic analysis of composite morphing wing with corrugated structures,”\nAerospace Science and Technology, Vol. 88, pp. 244–257, 2019.\nDOI\n\n\n\nAdditive Manufacturing and Wind-Tunnel Testing\nThis research establishes design, manufacturing, structural-verification, and experimental-validation methods for additively manufactured aeroelastic models.\n\nE. Nakagawa, T. Yokozeki, and N. Tsushima,\n“Topology optimization framework for designing elastic wind tunnel models with additive manufacturing,”\nAerospace Science and Technology, Vol. 168, 111372, 2026.\nDOI\nN. Tsushima, K. Soneda, K. Saitoh, and K. Nakakita,\n“Construction of flexible wing models by combined manufacturing of additive and subtractive processes for transonic wind tunnel testing,”\nAerospace Science and Technology, Vol. 167, 110665, 2025.\nDOI\nN. Tsushima, K. Saitoh, and K. Nakakita,\n“Structural and aeroelastic characteristics of wing model for transonic flutter wind tunnel test fabricated by additive manufacturing with AlSi10Mg alloys,”\nAerospace Science and Technology, Vol. 140, 108476, 2023.\nDOI\nN. Tsushima, M. Tamayama, H. Arizono, and K. Makihara,\n“Geometrically nonlinear aeroelastic characteristics of highly flexible wing fabricated by additive manufacturing,”\nAerospace Science and Technology, Vol. 117, 106923, 2021.\nDOI\nN. Tsushima, K. Saitoh, H. Arizono, and K. Nakakita,\n“Structural and aeroelastic studies of wing model with metal additive manufacturing for transonic wind tunnel test by NACA 0008 example,”\nAerospace, Vol. 8, No. 8, 200, 2021.\nDOI\n\n\n\nMechanical Metamaterials and Lattice Structures\nThis research develops multiscale analysis, dispersion analysis, uncertainty quantification, and manufacturing-aware design methods for architected materials and lightweight lattice structures.\n\nN. Tsushima, M. Ohishi, and T. Kasai,\n“Predicting low-frequency attenuation in additively manufactured mechanical metamaterials via complex dispersion analysis and uncertainty quantification,”\nJournal of Sound and Vibration, Vol. 642, 119970, 2026. DOI\nN. Tsushima, M. Kita, I. Matsubara, M. Ohishi, K. Kaneko, K. Mitsui, T. Kanzawa, R. Higuchi, and K. Yamamoto,\n“Accurate geometrical prediction and process optimization of additively manufactured metallic lattice structures via integrated thermomechanical and melt pool analysis,”\nThe International Journal of Advanced Manufacturing Technology, Vol. 143, pp. 1807–1821, 2026.\nDOI\nN. Tsushima, Y. Hayashi, and T. Yokozeki,\n“Dispersion analysis of plane wave propagation in lattice-based mechanical metamaterial for vibration suppression,”\nAerospace, Vol. 11, No. 8, 637, 2024.\nDOI\nN. Tsushima, R. Higuchi, and K. Yamamoto,\n“Correlation studies of different decoupled two-scale simulations for lattice structures,”\nAerospace, Vol. 10, No. 8, 723, 2023.\nDOI\nN. Tsushima and R. Higuchi,\n“Stiffness and strength evaluation of lattice-based mechanical metamaterials by decoupled two-scale analysis,”\nMaterials Today Communications, Vol. 31, 103598, 2022.\nDOI"
+  },
+  {
+    "objectID": "publications.html#complete-publication-records",
+    "href": "publications.html#complete-publication-records",
+    "title": "Publications",
+    "section": "Complete Publication Records",
+    "text": "Complete Publication Records\nFor a complete and continuously updated publication record, please see:\n\nGoogle Scholar\nresearchmap\nORCID"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Research news will be updated."
+  },
+  {
+    "objectID": "news.html#july-2026-best-presentation-award-at-fdcanss-2026",
+    "href": "news.html#july-2026-best-presentation-award-at-fdcanss-2026",
+    "title": "News",
+    "section": "July 2026 — Best Presentation Award at FDC/ANSS 2026",
+    "text": "July 2026 — Best Presentation Award at FDC/ANSS 2026\nOur presentation, “Spatial Mapping of Flutter Excitation and Dissipation Based on Aerodynamic Component Decomposition in Potential flow,” was selected for the Best Presentation Award in Aerospace Numerical Simulation Technology at the 58th Fluid Dynamics Conference / 44th Aerospace Numerical Simulation Symposium.\nThe study presents a component-resolved aerodynamic-work mapping framework for identifying the spatial regions and physical mechanisms that drive or dissipate flutter.\nThe award ceremony and invited award presentation are planned for the next FDC/ANSS conference in 2027."
+  },
+  {
+    "objectID": "news.html#section",
+    "href": "news.html#section",
+    "title": "News",
+    "section": "2026",
+    "text": "2026\n\nWebsite launched\nThis personal research website was established to provide an integrated overview of research activities, publications, projects, and collaboration opportunities."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Natsuki Tsushima, Ph.D., PMP\nAssociate Professor\nDepartment of Aeronautics and Astronautics Faculty of Engineering\nKyushu University\n\n\n\nProject Associate Professor\nDepartment of Aeronautics and Astronautics\nGraduate School of Engineering\nThe University of Tokyo\n\n\n\nVisiting Researcher\nFundamental Technology Research Unit\nAviation Technology Directorate\nJapan Aerospace Exploration Agency (JAXA)"
+  },
+  {
+    "objectID": "contact.html#affiliations",
+    "href": "contact.html#affiliations",
+    "title": "Contact",
+    "section": "",
+    "text": "Natsuki Tsushima, Ph.D., PMP\nAssociate Professor\nDepartment of Aeronautics and Astronautics Faculty of Engineering\nKyushu University\n\n\n\nProject Associate Professor\nDepartment of Aeronautics and Astronautics\nGraduate School of Engineering\nThe University of Tokyo\n\n\n\nVisiting Researcher\nFundamental Technology Research Unit\nAviation Technology Directorate\nJapan Aerospace Exploration Agency (JAXA)"
+  },
+  {
+    "objectID": "contact.html#email-contacts",
+    "href": "contact.html#email-contacts",
+    "title": "Contact",
+    "section": "Email Contacts",
+    "text": "Email Contacts\n\nKyushu University\nntsushima@aero.kyushu-u.ac.jp\n\n\nThe University of Tokyo\nntsushima@g.ecc.u-tokyo.ac.jp\nFor general research inquiries, either university email address may be used.\nPlease note that no JAXA-specific contact address is provided on this website."
+  },
+  {
+    "objectID": "contact.html#research-inquiries",
+    "href": "contact.html#research-inquiries",
+    "title": "Contact",
+    "section": "Research Inquiries",
+    "text": "Research Inquiries\nFor research collaboration, invited talks, student supervision, and technical consultation, please include a brief summary of your inquiry.\nRelevant research areas include:\n\nAerospace structures\nAeroelasticity\nStructural dynamics and vibration\nComposite structures\nMechanical metamaterials\nAdditive manufacturing\nWind-tunnel testing\nStructural sensing"
+  },
+  {
+    "objectID": "contact.html#student-supervision",
+    "href": "contact.html#student-supervision",
+    "title": "Contact",
+    "section": "Student Supervision",
+    "text": "Student Supervision\nResearch inquiries concerning aerospace structures, aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, and wind-tunnel testing are welcome.\nFormal student admission, laboratory affiliation, and research supervision are governed by the official academic programs and organizational procedures of the relevant university and department."
+  },
+  {
+    "objectID": "contact.html#website-notice",
+    "href": "contact.html#website-notice",
+    "title": "Contact",
+    "section": "Website Notice",
+    "text": "Website Notice\nThis is a personal research website maintained by Natsuki Tsushima. It is not an official website of Kyushu University, The University of Tokyo, or the Japan Aerospace Exploration Agency.\nThe affiliations and positions listed on this page do not imply that inquiries submitted through this website represent official inquiries to any of the affiliated institutions."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Natsuki Tsushima",
+    "section": "",
+    "text": "I investigate the mechanics, design, and experimental validation of advanced aerospace structures by integrating nonlinear aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, additive manufacturing, and wind-tunnel testing.\n\nAdvancing aerospace structures through nonlinear aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, and wind-tunnel experimentation."
+  },
+  {
+    "objectID": "index.html#research-vision",
+    "href": "index.html#research-vision",
+    "title": "Natsuki Tsushima",
+    "section": "",
+    "text": "I investigate the mechanics, design, and experimental validation of advanced aerospace structures by integrating nonlinear aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, additive manufacturing, and wind-tunnel testing.\n\nAdvancing aerospace structures through nonlinear aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, and wind-tunnel experimentation."
+  },
+  {
+    "objectID": "index.html#research-areas",
+    "href": "index.html#research-areas",
+    "title": "Natsuki Tsushima",
+    "section": "Research Areas",
+    "text": "Research Areas\n\nNonlinear aeroelasticity and highly flexible wings\nFlutter mechanism diagnosis and aeroelastic tailoring\nStructural dynamics and vibration control\nComposite and morphing structures\nAerospace mechanical metamaterials\nAdditively manufactured wind-tunnel models"
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Natsuki Tsushima",
+    "section": "Selected Publications",
+    "text": "Selected Publications\nSelected publications will be added after verification of the complete bibliographic information.\nView research topics\nView publications"
+  },
+  {
+    "objectID": "index.html#current-affiliations",
+    "href": "index.html#current-affiliations",
+    "title": "Natsuki Tsushima",
+    "section": "Current Affiliations",
+    "text": "Current Affiliations\n\nKyushu University — Associate Professor, Department of Aeronautics and Astronautics\nThe University of Tokyo — Project Associate Professor, Department of Aeronautics and Astronautics\nJapan Aerospace Exploration Agency (JAXA) — Visiting Researcher, Aeronautical Technology Directorate\n\nFull affiliations and contact information"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Natsuki Tsushima",
+    "section": "Contact",
+    "text": "Contact\nFor research collaboration, invited talks, student supervision, and technical consultation, please include a brief summary of your inquiry.\nContact information\n\nThis is a personal research website maintained by Natsuki Tsushima. It is not an official website of Kyushu University, The University of Tokyo, or the Japan Aerospace Exploration Agency."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This page presents publicly available research projects and collaborations across aerospace structures, aeroelasticity, structural dynamics, composite materials, mechanical metamaterials, additive manufacturing, and experimental mechanics."
+  },
+  {
+    "objectID": "projects.html#current-research",
+    "href": "projects.html#current-research",
+    "title": "Projects",
+    "section": "Current Research",
+    "text": "Current Research\nProject descriptions will be updated."
+  },
+  {
+    "objectID": "projects.html#collaborative-research",
+    "href": "projects.html#collaborative-research",
+    "title": "Projects",
+    "section": "Collaborative Research",
+    "text": "Collaborative Research\nPublicly announced research collaborations will be updated."
+  },
+  {
+    "objectID": "projects.html#research-funding",
+    "href": "projects.html#research-funding",
+    "title": "Projects",
+    "section": "Research Funding",
+    "text": "Research Funding\nOnly awarded and publicly disclosed research funding will be listed.\nConfidential project information, unpublished proposals, and information restricted by collaborative research agreements will not be included."
+  },
+  {
+    "objectID": "recognition.html",
+    "href": "recognition.html",
+    "title": "Recognition",
+    "section": "",
+    "text": "My research has been recognized across aerospace engineering, mechanical engineering, structural mechanics, and advanced manufacturing. The awards and external recognition listed below reflect contributions to nonlinear aeroelasticity, multifunctional flexible structures, additive manufacturing, wind-tunnel testing, and mechanical metamaterials."
+  },
+  {
+    "objectID": "recognition.html#awards-and-recognition",
+    "href": "recognition.html#awards-and-recognition",
+    "title": "Recognition",
+    "section": "",
+    "text": "My research has been recognized across aerospace engineering, mechanical engineering, structural mechanics, and advanced manufacturing. The awards and external recognition listed below reflect contributions to nonlinear aeroelasticity, multifunctional flexible structures, additive manufacturing, wind-tunnel testing, and mechanical metamaterials."
+  },
+  {
+    "objectID": "recognition.html#awards",
+    "href": "recognition.html#awards",
+    "title": "Recognition",
+    "section": "Awards",
+    "text": "Awards\n\nBest Presentation Award in Aerospace Numerical Simulation Technology\nSelected in 2026; award ceremony and invited award presentation planned for 2027\n58th Fluid Dynamics Conference / 44th Aerospace Numerical Simulation Symposium\nFDC/ANSS 2026\nSelected as the best presentation in the Aerospace Numerical Simulation Technology category for the presentation:\n“Spatial Mapping of Flutter Excitation and Dissipation Based on Aerodynamic Component Decomposition in Potential Flow”\nThe research develops a spatially resolved aerodynamic-work diagnostic framework by decomposing potential-flow aerodynamic forces into their underlying mechanical contributions. The resulting energy maps identify the regions and mechanisms that drive or dissipate flutter, providing a physics-based basis for flutter diagnosis and aeroelastic tailoring.\nThe award ceremony and award presentation are planned to be held during the next FDC/ANSS conference, scheduled for June 30–July 2, 2027, in Tokyo.\n\n\nThe Japan Society for Aeronautical and Space Sciences Award for Young Researchers\n2022 fiscal year; presented in 2023\nJapan Society for Aeronautical and Space Sciences\nAwarded for research on multifidelity analysis in geometrically nonlinear static aeroelasticity. The work developed computational methods for predicting large-deformation aeroelastic responses of flexible and morphing aerospace structures.\nhttps://www.jsass.or.jp/award/4156/\n\n\nThe Japan Society of Mechanical Engineers Young Engineers Award for Research\n2022 fiscal year; presented in 2023\nJapan Society of Mechanical Engineers\nAwarded for research on multiphysics and multiscale analysis and design methods for innovative structures and materials, including nonlinear aeroelasticity, multifunctional structures, additive manufacturing, and mechanical metamaterials.\nhttps://www.jsme.or.jp/20230301-2/\n\n\nOutstanding Presentation Award\n2020\n28th Transportation and Logistics Division Conference\nJapan Society of Mechanical Engineers\nAwarded for the presentation titled “Aeroelastic Characteristics of 3D-Printed Wings,” concerning the structural and aeroelastic behavior of additively manufactured flexible wing models.\n\n\nYoung Researcher Award\n2019\n61st JSASS/JSME Structures Conference\nJapan Society for Aeronautical and Space Sciences\nAwarded for research on multifidelity analysis in geometrically nonlinear static aeroelasticity.\nhttps://branch.jsass.or.jp/strcom/ysa/sc61_ysa/\n\n\nOutstanding Graduate PhD Research Assistant Award\n2017\nThe University of Alabama\nRecognized for doctoral research on highly flexible multifunctional wings, nonlinear aeroelasticity, piezoelectric vibration control, energy harvesting, and strain-based structural sensing."
+  },
+  {
+    "objectID": "recognition.html#selected-invited-talks",
+    "href": "recognition.html#selected-invited-talks",
+    "title": "Recognition",
+    "section": "Selected Invited Talks",
+    "text": "Selected Invited Talks\n\nAerospace Structures with Advanced Manufacturing: Design and Fabrication\nInnovative Carbon Fiber Polymer Composite Structures: Material, Design and Application Workshop\nJapan, March 2023\nAn invited presentation on the integration of computational structural design, additive manufacturing, and experimental validation for advanced aerospace structures.\n\n\nMulti-Material Additive Manufacturing of Mechanical Metamaterials with Tunable Stiffness\nComposites Computational Modeling and Experiments Workshop\nSingapore, November 2022\nAn invited presentation on the design and multiscale analysis of lattice-based mechanical metamaterials and their realization using advanced additive-manufacturing technologies.\n\n\nA New Nonlinear Aeroelastic Framework to Study the Nonlinear Aeroelasticity of Corrugated and Composite Morphing Wings\nIndo–Japan Workshop\nIndia, November 2018\nAn invited presentation on geometrically nonlinear aeroelastic analysis for flexible composite and corrugated morphing-wing structures.\n\n\nAdaptive Highly Flexible Multifunctional Wings for Active and Passive Control and Energy Harvesting with Piezoelectric Materials\nMorphing Technology Research Group, Japan Society of Mechanical Engineers\n2017\nAn invited presentation on multifunctional wing structures integrating active piezoelectric control, passive vibration damping, and energy harvesting."
+  },
+  {
+    "objectID": "recognition.html#research-highlights-and-media",
+    "href": "recognition.html#research-highlights-and-media",
+    "title": "Recognition",
+    "section": "Research Highlights and Media",
+    "text": "Research Highlights and Media\n\nJAXA’s Magazine: Mechanical Metamaterials for Aircraft Performance\nJAXA’s No. 96, July 2024\nResearch on aerospace mechanical metamaterials, lattice structures, structural functionality, and advanced manufacturing was introduced in a feature article published by the Japan Aerospace Exploration Agency.\nhttps://fanfun.jaxa.jp/jaxas/no096/\n\n\nHybrid Manufacturing of Flexible Wind-Tunnel Models\nProterial, January 2024\nA case study introducing the development of flexible metallic wind-tunnel models through the combination of metal additive manufacturing and precision machining.\nhttps://www.proterial.com/products/3d_printer/cs02.html\n\n\nMechanical Metamaterials for Morphing Aircraft\nMONOist, December 2021\nResearch on mechanical metamaterials, multiscale structural analysis, and their potential applications to adaptive and morphing aircraft was introduced in a technical feature article.\nhttps://monoist.itmedia.co.jp/mn/articles/2112/16/news005.html\n\n\nAerospace America: Year in Review\nAerospace America, December 2021\nResearch on additively manufactured aeroelastic wind-tunnel models was highlighted in the American Institute of Aeronautics and Astronautics’ annual review of advances in ground testing and experimental aerospace technology.\nhttps://aerospaceamerica.aiaa.org/year-in-review/facility-improvements-return-to-service-and-novel-testing-techniques-showcase-critical-ground-testing/"
+  },
+  {
+    "objectID": "recognition.html#international-research-experience",
+    "href": "recognition.html#international-research-experience",
+    "title": "Recognition",
+    "section": "International Research Experience",
+    "text": "International Research Experience\nMy research has been developed through collaborations and research activities spanning universities, public research institutes, and industry in Japan, the United States, and Europe.\n\nNASA-Related Flexible-Structure Sensing Research\nAs a Graduate Research Assistant at the University of Alabama, I contributed to NASA-supported research on strain-based deformation and vibration monitoring for flexible launch-vehicle structures. The work developed sensor-instrumented reference structures and reconstruction methods for estimating multi-axial bending vibration from distributed strain measurements.\n\n\nGerman Aerospace Center (DLR)\nAs a Guest Scientist at the DLR Institute of Aeroelasticity from September 2023 to August 2024, I conducted research on transonic wind-tunnel testing, structural shape identification, and strain-based deformation monitoring for additively manufactured aeroelastic wing models.\n\n\nJAXA\nMy research at the Japan Aerospace Exploration Agency has addressed nonlinear aeroelasticity, metal-additive-manufactured wind-tunnel models, transonic flutter testing, advanced sensing, and experimental validation. I continue this collaboration as a Visiting Researcher in the Aviation Technology Directorate."
+  },
+  {
+    "objectID": "recognition.html#professional-qualification",
+    "href": "recognition.html#professional-qualification",
+    "title": "Recognition",
+    "section": "Professional Qualification",
+    "text": "Professional Qualification\n\nProject Management Professional\nProject Management Professional, PMP\nA professional qualification awarded by the Project Management Institute. The associated project-management framework supports the planning and execution of multidisciplinary and international research activities involving computational development, manufacturing, and experimental validation."
+  },
+  {
+    "objectID": "recognition.html#official-profiles",
+    "href": "recognition.html#official-profiles",
+    "title": "Recognition",
+    "section": "Official Profiles",
+    "text": "Official Profiles\nFor complete and continuously updated records, please see:\n\nresearchmap\nGoogle Scholar\nhttps://orcid.org/0000-0003-0767-7295\nhttps://hyoka.ofc.kyushu-u.ac.jp/html/100026081_en.html\nKyushu University Pure Portal"
+  }
+]
